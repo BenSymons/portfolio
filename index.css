@@ -6,12 +6,27 @@ h1{
     text-shadow: -1px 3px 2px;
     text-align: center;
 }
+.standard {
+    font-family: Arial;
+    color: rgb(26, 14, 85);
+    text-shadow: -1px 1px 1px;
+}
 body {
     background-color: rgb(147, 182, 238);
 }
 img {
-    max-width: 35%;
+    max-width: 15%;
     height: auto;
     border: 4px solid darkblue;
     padding: 4px;
+    float: left;
+    margin: 10px;
+    background-color: rgb(155, 209, 216);
+}
+h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+p {
+    font-size: 18pt;
 }
