@@ -26,7 +26,13 @@ img {
 h2 {
     text-align: left;
     text-decoration: underline;
+    font-size: 24pt;
+
 }
 p {
+    font-size: 18pt;
+}
+
+ul {
     font-size: 18pt;
 }
