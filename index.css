@@ -1,4 +1,57 @@
-h1{
+*{
+    font-family: Orbitron;
+    color: rgb(26, 14, 85);
+    line-height: 1.4em;
+    /* text-shadow: -1px 1px 1px; */
+}
+body{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+a{
+    margin: 5px 10px;
+    background-color: cyan;
+}
+
+.main_title{
+    width:95%;
+    margin:auto;
+    text-decoration: underline;
+    font-size: 50px;
+    background-color: rgb(174, 231, 226);
+    padding: 2px 10px;
+    border: 2px black dashed;
+    margin: 0px 10px;
+}
+
+a:hover{
+    color:rgb(30, 45, 255);
+    font-weight: bold;
+}
+
+.sub_title{
+    text-decoration: underline;
+    background-color: cyan;
+    margin: 0px 10px;
+}
+
+.container{
+    width: 95%;
+    background-color: cyan;
+    padding:2px 20px;
+    margin:20px 10px;
+
+}
+
+#mypic{
+    float:left;
+    margin: auto;
+    border: 10px rgb(22, 22, 22) solid;
+}
+
+
+
+/* h1{
     font-family: Arial;
     font-size: 54pt;
     color: rgb(26, 14, 85);
@@ -10,6 +63,7 @@ h1{
     font-family: Arial;
     color: rgb(26, 14, 85);
     text-shadow: -1px 1px 1px;
+    text-align: center;
 }
 body {
     background-color: rgb(147, 182, 238);
@@ -35,4 +89,4 @@ p {
 
 ul {
     font-size: 18pt;
-}
+} */
