@@ -2,6 +2,7 @@
     font-family: Orbitron;
     color: rgb(26, 14, 85);
     line-height: 1.4em;
+    font-size: 20px;
     /* text-shadow: -1px 1px 1px; */
 }
 body{
@@ -29,10 +30,17 @@ a:hover{
     font-weight: bold;
 }
 
+.underline{
+    text-decoration: underline;
+}
+
 .sub_title{
     text-decoration: underline;
     background-color: cyan;
-    margin: 0px 10px;
+    margin: auto;
+    padding:2px;
+    margin:0px 20px;
+    margin-right: 40px;
 }
 
 .container{
@@ -49,6 +57,23 @@ a:hover{
     border: 10px rgb(22, 22, 22) solid;
 }
 
+.picture{
+    float:left;
+    border: 10px rgb(22, 22, 22) solid;
+    height: 200px;
+    width: auto;
+    margin: 0px 20px;
+}
+
+.description{
+    text-align: center;
+    color: cyan;
+    font-size: 28px;
+}
+
+.gallery{
+    float:left;
+}
 
 
 /* h1{
