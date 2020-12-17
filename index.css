@@ -1,6 +1,5 @@
 *{
     font-family: Orbitron;
-    color: rgb(26, 14, 85);
     line-height: 1.4em;
     font-size: 20px;
     /* text-shadow: -1px 1px 1px; */
@@ -11,10 +10,12 @@ body{
 
 a{
     margin: 5px 10px;
-    background-color: cyan;
+    text-decoration: underline;
+    color: rgb(34, 0, 204);
 }
 
 .main_title{
+    color: rgb(26, 14, 85);
     width:95%;
     margin:auto;
     text-decoration: underline;
@@ -31,10 +32,12 @@ a:hover{
 }
 
 .underline{
+    color: rgb(26, 14, 85);
     text-decoration: underline;
 }
 
 .sub_title{
+    color: rgb(26, 14, 85);
     text-decoration: underline;
     background-color: cyan;
     margin: auto;
@@ -44,6 +47,7 @@ a:hover{
 }
 
 .container{
+    color: rgb(26, 14, 85);
     width: 95%;
     background-color: cyan;
     padding:2px 20px;
@@ -52,9 +56,14 @@ a:hover{
 }
 
 #mypic{
-    float:left;
-    margin: auto;
+    float:right;
+    margin: 20px;
     border: 10px rgb(22, 22, 22) solid;
+    width: 30%;
+}
+
+#homepage{
+    display: flex;
 }
 
 .picture{
@@ -62,7 +71,7 @@ a:hover{
     border: 10px rgb(22, 22, 22) solid;
     height: 200px;
     width: auto;
-    margin: 0px 20px;
+    margin: 20px 20px;
 }
 
 .description{
@@ -78,46 +87,50 @@ a:hover{
 }
 
 .gallery{
-    float:left;
-}
-
-
-/* h1{
-    font-family: Arial;
-    font-size: 54pt;
-    color: rgb(26, 14, 85);
-    text-decoration: underline;
-    text-shadow: -1px 3px 2px;
-    text-align: center;
-}
-.standard {
-    font-family: Arial;
-    color: rgb(26, 14, 85);
-    text-shadow: -1px 1px 1px;
-    text-align: center;
-}
-body {
-    background-color: rgb(147, 182, 238);
-}
-img {
-    max-width: 15%;
-    height: auto;
-    border: 4px solid darkblue;
-    padding: 4px;
-    float: left;
     margin: 10px;
-    background-color: rgb(155, 209, 216);
-}
-h2 {
-    text-align: left;
-    text-decoration: underline;
-    font-size: 24pt;
-
-}
-p {
-    font-size: 18pt;
+    width: auto;
+    display: flex;
 }
 
-ul {
-    font-size: 18pt;
-} */
+.gallery-panel{
+    display: flex;
+    background-color: grey;
+    border: solid rgb(80, 80, 80);
+}
+
+@keyframes up {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%
+    }
+}
+
+@keyframes left {
+    from {
+        margin-top: 100%;
+    }
+    to {
+        margin-top: 0%
+    }
+}
+
+@keyframes fade {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: cyan;
+    }
+}
+
+.up{
+    animation-name: up;
+    animation-duration: 3s;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 3s;
+}
